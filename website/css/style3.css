@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{ 
+  background-color: #f7f1f1;;
+}
+
+nav{
+  width: 100%;
+  height: 60px;
+  background-color:#f7f1f1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+} 
+
+nav p {
+  font-family: 'Papyrus', Fantasy;
+  color: #222;
+  font-size: 30px;
+  line-height: 60px;
+  float: left;
+  padding: 0px 20px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+a:hover {
+  background-color: black; 
+  color: white;
+}
+
+nav ul li a {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 17px;
+  padding: 19px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f7f1f1
+
+  ;
+}
+
+nav ul li:hover ul {
+  display: block;
+  z-index: 1;
+}
+
+
+nav ul li ul li {
+  width: 160px;
+}
+
+nav ul li ul li a {
+  padding: 12px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: black; 
+  color: white;
+}
+
+/*showcase*/
+#showcase{
+  min-height:400px;
+  background:url('../img/croacia.jpg') no-repeat 0 -400px;
+  text-align:right;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin-top: 50px;
+  padding-top: 0;
+  position: relative;
+  top: -50px;
+}
+
+
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px; 
+  margin-top: 20px;
+
+
+}
+
+.container p{
+  margin-bottom: 20px;
+}
+
+
+.container h1{
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-family:  'Papyrus', Fantasy; 
+  font-size: 80px;
+  text-align: center;
+  font-weight: lighter;
+
+}
+
+.container ul{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container ul li a:hover{
+  opacity: 0.5;
+  border-radius: 5px;
+  background-color:#f7f1f1;
+  color: black;
+}
+
+.container h2{
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 45px;
+}
+
+.container table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-media {
+  margin-bottom: 10px;
+    display: inline-block;
+
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+}
+
+.social-media a:hover {
+  color: #222;
+  
+}
+
+.fa {
+  font-size: 20px;
+  line-height: 20px;
+}
